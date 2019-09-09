@@ -23,4 +23,10 @@ Mathematically
   <img src="res/dot.png" title="Angle between two vectors" >
 </p>
 
-CosineSimilarity(u, v)=u.v||u||2||v||2=\cos(\theta)
+<p align="center">
+  <img src="res/cosine_formula.png" title="Cosine Formula" >
+</p>
+
+<p align="center">
+  <img src="res/cosine_fomula2.png" title="Cosine Formula" >
+</p>
