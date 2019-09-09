@@ -13,4 +13,14 @@ It is a metric used to measure how similar the text documents are. The inception
 </p>
 
 In the following example we assume that the two vectors represents two sentences. 
-If the two vector are close to parallel, we can say that the two sentences are similar. But if the two vectors are orthogonal, we will that these two sentences are NOT similar.
+If the two vectors are close to parallel, we can say that the two sentences are similar. But if the two vectors are orthogonal, we will that these two sentences are NOT similar.
+<br/>
+In cosine similarity the smaller the angle the higher the similarity.
+<br/>
+Mathematically
+<br/>
+<p align="center">
+  <img src="res/dot.png" title="Angle between two vectors" >
+</p>
+
+CosineSimilarity(u, v)=u.v||u||2||v||2=\cos(\theta)
