@@ -12,3 +12,5 @@ It is a metric used to measure how similar the text documents are. The inception
   <img width="460" height="300" src="res/angle.png" title="Angle between two vectors" >
 </p>
 
+In the following example we assume that the two vectors represents two sentences. 
+If the two vector are close to parallel, we can say that the two sentences are similar. But if the two vectors are orthogonal, we will that these two sentences are NOT similar.
