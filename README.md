@@ -30,3 +30,27 @@ Mathematically
 <p align="center">
   <img src="res/cosine_fomula2.png" title="Cosine Formula" >
 </p>
+
+## Python code
+<br/>
+In this example we will use lemmatization in order to get better results.
+<br/>
+With lemmatization  we can reduce same words from same root example : 'has' and 'have' will become a same word.
+
+<br/>
+
+
+
+```python
+count_vectorizer = CountVectorizer(strip_accents = 'unicode',
+                       stop_words = 'english')
+sparse_matrix = count_vectorizer.fit_transform(documents)
+
+# OPTIONAL: Convert Sparse Matrix to Pandas Dataframe if you want to see the word frequencies.
+doc_term_matrix = sparse_matrix.todense()
+df = pd.DataFrame(doc_term_matrix, 
+                  columns=count_vectorizer.get_feature_names())
+```
+
+
+You can see the full example under /code folder in the main rep.
